@@ -128,7 +128,7 @@ void setup()
   // Unlock your SIM card with a PIN
   //modem.simUnlock("0000");
 
-  Blynk.begin(auth, modem, apn, user, pass, "90.189.217.158", 8080);
+  Blynk.begin(auth, modem, apn, user, pass, "0.0.0.0", 8080);
 
   // Setup a function to be called every second
   // timer.setInterval(1000, sendSensor);
